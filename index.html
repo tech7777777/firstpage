@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        /* h1{
+        background-color: aquamarine;
+        } */
+        /* 
+        * {
+            color: blueviolet;
+        } */
+
+        /* Child Selection */
+        li>a {
+            color: red;
+        }
+
+        /* Adjacent Sibling Selection */
+        h1+p {
+            color: green;
+        }
+
+        /* General Sibling Selection */
+        h3~p {
+            color: cadetblue;
+        }
+
+
+        #rgb {
+            background-color: rgb(0, 0, 110);
+            color: antiquewhite;
+        }
+
+        #rgba {
+            background-color: rgba(255, 70, 98, 1.0);
+        }
+
+        #hex {
+            background-color: #8989a5
+        }
+
+        #hsl {
+            background-color: hsla(166, 42%, 79%);
+        }
+
+        #dimension {
+            border: solid 2px red;
+            min-width: 400px;
+            height: 40%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- <a href="contactus.html">Contact US</a>
+
+    <h1>This is first Heading</h1>
+    <h2>This is sub Heading</h2> -->
+
+
+    <!-- <h1>This is Second Heading</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, reprehenderit amet labore, deleniti facilis
+        dicta distinctio a odio vitae id alias nobis soluta quaerat, molestias hic magni nulla ratione? Beatae.</P>
+
+    <h1>This is Third Heading</h1>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, reprehenderit amet labore, deleniti facilis
+        dicta distinctio a odio vitae id alias nobis soluta quaerat, molestias hic magni nulla ratione? Beatae.</P> -->
+
+    <!-- <section>
+        <h1>Child Selection</h1>
+
+        <h3>This is fourth heading
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+                delectus,
+                odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+                delectus,
+                odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+        </h3>
+    </section>  -->
+
+    <h1>Child Selection</h1>
+    <ul>
+        <li><a href="contatcus">
+                Red
+            </a></li>
+
+        <li><a href="contatcus">
+                Blue
+            </a></li>
+
+        <li><a href="contatcus">
+                Green
+            </a></li>
+        <li><a href="contatcus">
+                Purple
+            </a></li>
+    </ul> 
+
+
+    <section>
+        <h1>Adjacent Sibling Selection</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+            delectus,
+            odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+            delectus,
+            odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+    </section>
+
+
+    <div id="dimension">
+        <h1>General Sibling Selection</h1>
+        <h3>This is fourth heading </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+            delectus,
+            odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima animi illo iure impedit perspiciatis,
+            delectus,
+            odit quasi voluptatum ad molestiae voluptate sit quos culpa iusto vel rerum suscipit harum mollitia.</p>
+    </div>
+
+
+    <h1> -------------------COLORS------------------</h1>
+
+    <h2> -------------------RGB------------------</h2>
+    <P>Red , green , blue (255,255,255) 0-255</P>
+    <p id="rgb"> color: rgb(0, 0, 110)</p>
+
+
+    <h2> -------------------RGBA------------------</h2>
+    <P>Red , green , blue , Alpha (0-255,0-255,0-255,0.0-1.0)</P>
+    <p id="rgba">color: rgba</p>
+
+
+    <h2> -------------------HEX------------------</h2>
+    <P>RR , GG , BB (00-FF ,00-FF , 00-FF )</P>
+    <p id="hex">color: </p>
+
+    <h2> -------------------HSL------------------</h2>
+    <P>HUE , SATURATION , LIGHTNESS</P>
+    <p id="hsl">
+        Hue = Degree (0_360)
+        SATURATION = 0%-100%
+        LIGHTNESS = 0%-100%
+    </P>
+
+
+
+</body>
+
+</html>
